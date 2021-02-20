@@ -278,10 +278,10 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding-top: 80px;
-    padding-left: 13%;
+    padding-left: 12%;
   }
   .job-card {
-   width: 80%;
+   width: 85%;
    height: 250px;
    margin-bottom: 20px;
   }
@@ -295,18 +295,17 @@
     margin-left: 10px;
   }
   .job-company {
-    position: absolute;
-    margin-left: 20%;
+    margin-left: 32%;
     color: #474747;
     margin-top: -5px;
   }
   
   .job-description {
-    margin-left: 100px;
+    margin-left: 95px;
     font-size: 16px;
     font-weight: bold;
     color: #474747;
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
   .job-footer {
@@ -326,7 +325,7 @@
   }
 
   .job-card-category {
-    margin-left: 110px;
+    margin-left: 100px;
   }
 
 }
