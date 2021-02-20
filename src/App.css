@@ -153,15 +153,16 @@
     width: 100%
   }
   .searchbox-model {
-    position: relative;
-    width: 100%;
-    left: -15%;
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
     height: 200px;
     z-index: 1;
   }
   .search-button {
     background-color:  rgb(46, 195, 103);
     padding: 5px;
+    font-size: 13px;
   }
   .searchbox-search {
     position: relative;
@@ -170,7 +171,8 @@
     font-size: 14px;
   }
   .searchbox-top {
-    left: -15%;
+    position: absolute;
+    margin-left: 10%;
   }
   .searchbox-title {
     font-size: 30px;
@@ -275,10 +277,10 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding-top: 80px;
-    padding-left: 50px;
+    padding-left: 10%;
   }
   .job-card {
-   width: 300px;
+   width: 80%;
    height: 250px;
    margin-bottom: 20px;
   }
@@ -286,41 +288,44 @@
     position: relative;
     height: auto; 
     width: auto; 
-    max-width: 80px; 
-    max-height: 90px;
+    max-width: 60px; 
+    max-height: 70px;
     border-radius: 5px;
     margin-left: 10px;
   }
   .job-company {
     position: absolute;
-    margin-left: 120px;
+    margin-left: 20%;
     color: #474747;
+    margin-top: -5px;
   }
   
   .job-description {
-    position: absolute;
-    margin-left: 120px;
-    font-size: 17px;
+    margin-left: 100px;
+    font-size: 16px;
     font-weight: bold;
     color: #474747;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
   }
 
   .job-footer {
     position: absolute;
     margin-bottom: 5px;
-    margin-top: 140px;
+    margin-top: 120px;
   }
   
   .job-tags{
     position: absolute;
-    margin-top: 190px;
-    padding-right: 180px;
+    margin-top: 170px;
+    padding-right: 20%;
+  }
+  .job-details {
+    float: right;
+    margin-top: -60px;
   }
 
   .job-card-category {
-    margin-left: 205px;
+    margin-left: 130px;
   }
 
 }
