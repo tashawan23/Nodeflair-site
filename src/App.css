@@ -166,8 +166,9 @@
   }
   .searchbox-search {
     position: relative;
+    outline-color:  rgb(46, 195, 103);
     width: 80%;
-    border-radius: -3px;
+    border-radius: -4px;
     height: 30px;
     font-size: 14px;
   }
@@ -295,7 +296,7 @@
     margin-left: 10px;
   }
   .job-company {
-    margin-left: 32%;
+    margin-left: 95px;
     color: #474747;
     margin-top: -5px;
   }
@@ -309,14 +310,14 @@
   }
 
   .job-footer {
-    position: absolute;
+    position: relative;
     margin-bottom: 5px;
-    margin-top: 120px;
+    margin-top: 25px;
   }
   
   .job-tags{
-    position: absolute;
-    margin-top: 170px;
+    position: relative;
+    margin-top: 10px;
     padding-right: 20%;
   }
   .job-details {
@@ -325,7 +326,8 @@
   }
 
   .job-card-category {
-    margin-left: 100px;
+    position: relative;
+    margin-left: 0%;
   }
 
 }
