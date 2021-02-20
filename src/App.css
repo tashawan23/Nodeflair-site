@@ -168,7 +168,7 @@
     position: relative;
     outline-color:  rgb(46, 195, 103);
     width: 80%;
-    border-radius: -4px;
+    border-radius: 0px;
     height: 30px;
     font-size: 14px;
   }
@@ -312,7 +312,7 @@
   .job-footer {
     position: relative;
     margin-bottom: 5px;
-    margin-top: 25px;
+    margin-top: 20px;
   }
   
   .job-tags{
@@ -331,4 +331,3 @@
   }
 
 }
-
