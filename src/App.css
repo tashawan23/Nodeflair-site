@@ -146,7 +146,7 @@
   color:rgb(134, 131, 131);
 }
 
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (max-width: 960px) {
   .searchbox-container {
     height: 300px;
     position: relative;
@@ -268,7 +268,7 @@
   border-radius: 5px;
   color:#8b8b8b;
 }
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (max-width: 960px) {
   .joblist { 
     z-index: 0;
     position: relative;
