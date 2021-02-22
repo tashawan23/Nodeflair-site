@@ -130,6 +130,7 @@
   border-radius: 10px;
   margin-left: 20%;
   padding: 28px;
+  z-index: 1;
 }
 .search-button {
   background-color:  rgb(46, 195, 103);
@@ -155,7 +156,7 @@
   .searchbox-container {
     height: 300px;
     position: relative;
-    width: 100%
+    width: 100%;
   }
   .searchbox-model {
     position: absolute;
@@ -195,7 +196,7 @@
 
 .joblist { 
   padding-top: 70px;
-  height: 800px;
+  height: 1000px;
   padding-bottom: 70px;
   background-color: rgb(246, 245, 245);
   display: grid;
@@ -203,13 +204,14 @@
   grid-column-gap: 7px;
   /* padding-left: 170px; */
   padding-left: 16%;
+  position: relative;
 }
 
 .job-card {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  width: 360px;
+  width: 90%;
   background-color: white;
   border-style: solid;
   border-width: 0.3px;
@@ -227,12 +229,13 @@
 }
 
 .job-logo {
+  position: relative;
   height: auto; 
   width: auto; 
   max-width: 100px; 
-  max-height: 110px;
+  max-height: 100px;
   border-radius: 5px;
-  margin-left: 100px;
+  margin-left: 38%;
 }
 
 .job-company {
@@ -241,18 +244,19 @@
 }
 
 .job-description {
-  font-size: 20px;
+  position: relative;
+  font-size: 18px;
   font-weight: bold;
   color: #474747;
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 8%;
 }
 .job-card-time {
   color: #adadad;
   font-style: italic;
 }
 .job-card-category {
-  margin-left: 160px;
+  margin-left: 0%;
   float: right;
   padding: 7px;
   background-color: rgb(196, 246, 215);
@@ -260,16 +264,15 @@
   border-radius: 3px;
 }
 .job-footer {
-  position: absolute;
-  margin-bottom: 5px;
-  margin-top: 225px;
+  margin-bottom: 8%;
+  /* margin-top: 5px; */
 }
 
 .job-tags{
-  position: absolute;
-  margin-top: 270px;
+  position: relative;
   padding-top: 15px;
-  padding-right: 140px;
+  padding-right: 8%;
+  /* width: 50%; */
   border-top: solid 0.3px rgb(224, 224, 224);
 }
 
