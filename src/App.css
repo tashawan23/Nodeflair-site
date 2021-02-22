@@ -107,7 +107,7 @@
   margin-top: 45px;
   /* margin-left: 160px; */
   position: absolute;
-  margin-left: 18%;
+  margin-left: 20%;
 }
 .searchbox-title__half {
   font-size: 35px;
@@ -122,12 +122,13 @@
 .searchbox-model {
   position: absolute;
   background-color: white;
-  width: 1150px;
+  /* width: 1150px; */
+  width: 60%;
   height: 230px;
   margin-top: 145px;
   /* margin-left: 160px; */
   border-radius: 10px;
-  margin-left: 18%;
+  margin-left: 20%;
   padding: 28px;
 }
 .search-button {
@@ -139,7 +140,7 @@
   padding: 8px 20px;
   border-radius: 5px;
   height: 50px;
-  width: 1000px;
+  width: 80%;
   outline-color:  rgb(46, 195, 103);
   background-color: rgb(240, 238, 238);
   font-size: 18px;
@@ -201,7 +202,7 @@
   grid-template-columns: repeat(3 , 30%);
   grid-column-gap: 7px;
   /* padding-left: 170px; */
-  padding-left: 12%;
+  padding-left: 16%;
 }
 
 .job-card {
